@@ -6,6 +6,7 @@ close_color="\033[0m"
 
 echo -e "$green Installing essential tools.. $close_color" &&
 sudo apt install git dialog -y &&
+sudo gem install tty-prompt
 
 echo -e "$green Downloading installer... $close_color" &&
 cd ~/.local/share/ &&
